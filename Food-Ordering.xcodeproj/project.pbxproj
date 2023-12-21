@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		5ED2EF2E2B34B80A00CE7CC2 /* Food_OrderingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2EF2D2B34B80A00CE7CC2 /* Food_OrderingApp.swift */; };
-		5ED2EF302B34B80A00CE7CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2EF2F2B34B80A00CE7CC2 /* ContentView.swift */; };
+		5ED2EF302B34B80A00CE7CC2 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2EF2F2B34B80A00CE7CC2 /* AppetizerTabView.swift */; };
 		5ED2EF322B34B80C00CE7CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED2EF312B34B80C00CE7CC2 /* Assets.xcassets */; };
 		5ED2EF362B34B80C00CE7CC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED2EF352B34B80C00CE7CC2 /* Preview Assets.xcassets */; };
+		5ED2EF3D2B34B87900CE7CC2 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2EF3C2B34B87900CE7CC2 /* AppetizerListView.swift */; };
+		5ED2EF3F2B34B88100CE7CC2 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2EF3E2B34B88100CE7CC2 /* AccountView.swift */; };
+		5ED2EF412B34B88600CE7CC2 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2EF402B34B88600CE7CC2 /* OrderView.swift */; };
+		5ED2EF432B34BE3100CE7CC2 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2EF422B34BE3100CE7CC2 /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5ED2EF2A2B34B80A00CE7CC2 /* Food-Ordering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food-Ordering.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED2EF2D2B34B80A00CE7CC2 /* Food_OrderingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_OrderingApp.swift; sourceTree = "<group>"; };
-		5ED2EF2F2B34B80A00CE7CC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5ED2EF2F2B34B80A00CE7CC2 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		5ED2EF312B34B80C00CE7CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ED2EF332B34B80C00CE7CC2 /* Food_Ordering.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Food_Ordering.entitlements; sourceTree = "<group>"; };
 		5ED2EF352B34B80C00CE7CC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5ED2EF3C2B34B87900CE7CC2 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		5ED2EF3E2B34B88100CE7CC2 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		5ED2EF402B34B88600CE7CC2 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		5ED2EF422B34BE3100CE7CC2 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				5ED2EF2D2B34B80A00CE7CC2 /* Food_OrderingApp.swift */,
-				5ED2EF2F2B34B80A00CE7CC2 /* ContentView.swift */,
+				5ED2EF2F2B34B80A00CE7CC2 /* AppetizerTabView.swift */,
 				5ED2EF312B34B80C00CE7CC2 /* Assets.xcassets */,
 				5ED2EF332B34B80C00CE7CC2 /* Food_Ordering.entitlements */,
 				5ED2EF342B34B80C00CE7CC2 /* Preview Content */,
+				5ED2EF3C2B34B87900CE7CC2 /* AppetizerListView.swift */,
+				5ED2EF3E2B34B88100CE7CC2 /* AccountView.swift */,
+				5ED2EF402B34B88600CE7CC2 /* OrderView.swift */,
+				5ED2EF422B34BE3100CE7CC2 /* Appetizer.swift */,
 			);
 			path = "Food-Ordering";
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ED2EF302B34B80A00CE7CC2 /* ContentView.swift in Sources */,
+				5ED2EF432B34BE3100CE7CC2 /* Appetizer.swift in Sources */,
+				5ED2EF3F2B34B88100CE7CC2 /* AccountView.swift in Sources */,
+				5ED2EF302B34B80A00CE7CC2 /* AppetizerTabView.swift in Sources */,
 				5ED2EF2E2B34B80A00CE7CC2 /* Food_OrderingApp.swift in Sources */,
+				5ED2EF3D2B34B87900CE7CC2 /* AppetizerListView.swift in Sources */,
+				5ED2EF412B34B88600CE7CC2 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
